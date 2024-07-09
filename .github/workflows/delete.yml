@@ -10,8 +10,7 @@ on:
 
 jobs:
   delete:
-    permissions:
-      contents: write
+    permissions: write-all
     runs-on: ubuntu-latest
     strategy:
       matrix:
